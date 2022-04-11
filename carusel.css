@@ -1,0 +1,139 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.subscribe-block-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(59, 59, 59, 0.938);
+  color: aliceblue;
+  padding: 2rem 10rem;
+}
+.subscribe-block-wrapper label {
+  font-size: 1.7rem;
+  margin: 0 1.4rem;
+}
+.subscribe-block-wrapper input {
+  outline: none;
+  border: none;
+  padding: 1.2rem;
+  width: 40%;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+.subscribe-block-wrapper button {
+  outline: none;
+  border: none;
+  padding: 1.2rem;
+  width: 10%;
+  border-radius: 0 0.4rem 0.4rem 0;
+  background-color: rgb(175, 5, 5);
+  color: aliceblue;
+}
+.middle {
+  background-color: rgb(59, 59, 59);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.4rem;
+}
+.middle ul {
+  margin-left: 3rem;
+}
+.middle li {
+  list-style: none;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: rgba(206, 204, 204, 0.333);
+}
+.middle li:first-child {
+  color: aliceblue;
+  font-weight: 800;
+  list-style: none;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.bottom-under {
+  display: flex;
+  border-top: 1px solid;
+  color: rgba(206, 204, 204, 0.333);
+  padding-top: 3rem;
+  background-color: rgb(59, 59, 59);
+}
+.bottom-under p {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+.bottom-under img {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+/* carules style */
+.slider {
+  width: 240px;
+}
+.slider__list {
+  padding-right: 20px;
+}
+.slider__img {
+  width: 72%;
+  height: 70px;
+}
+.slider__item {
+  width: 20px;
+}
+.slider__item a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+.control__button {
+  display: flex;
+  justify-content: space-around;
+}
+.prev {
+  font-weight: 900;
+  font-size: 1.7rem;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.prev:hover {
+  background-color: black;
+  color: aliceblue;
+}
+.next {
+  font-weight: 900;
+  font-size: 1.7rem;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.next:hover {
+  background-color: black;
+  color: aliceblue;
+}
